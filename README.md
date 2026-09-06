@@ -40,10 +40,10 @@ Setup Task Scheduler for Automation
 Depending on your needs, you can use Task Scheduler to ensure that the server/s you want up stay up. 
 1. Create a basic task as normal, naming it appropriately.
 2. Under Triggers, determine what cycle works best for you and your group of players to have the servers be down for a couple of minutes. I stick with once a week during the work day when most of us are working
-2a. Make sure to schedule the serverShutdown.bat first before the serverStartYOURSERVERNAME.bat, leaving about five minutes between the shutdown and the startup tasks
-3.Under Actions, enter cmd.exe as the program/script and the following for the argument:
+3. Make sure to schedule the serverShutdown.bat first before the serverStartYOURSERVERNAME.bat, leaving about five minutes between the shutdown and the startup tasks
+4. Under Actions, enter cmd.exe as the program/script and the following for the argument:
   /c "C:\ValheimLogs\serverStartYOURSERVERNAME.bat >> C:\ValheimLogs\YOURSERVERNAMETaskSchedulerLog.txt 2>&1"
-3a. The shutdownServer.bat does not need any arguments and can be selected using the Browse function
+5. The shutdownServer.bat does not need any arguments and can be selected using the Browse function
 
 Explanation of the dual log files
 The scripts utilize the two log files to aid in a few steps. Chiefly debugging but also it's what allows for the capture of the Join ID for the post to discord. The scripts should be self clearing, but if they do start to get too big they can be cleared manually when the servers aren't running.
