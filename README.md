@@ -39,8 +39,7 @@ The serverShutdown.bat when run will identify all active Valheim servers and shu
 Setup Task Scheduler for Automation
 Depending on your needs, you can use Task Scheduler to ensure that the server/s you want up stay up. 
 1. Create a basic task as normal, naming it appropriately.
-2. Under Triggers, determine what cycle works best for you and your group of players to have the servers be down for a couple of minutes. I stick with once a week during the work day when most of us are working.
-   
+2. Under Triggers, determine what cycle works best for you and your group of players to have the servers be down for a couple of minutes. I stick with once a week during the work day when most of us are working
 2a. Make sure to schedule the serverShutdown.bat first before the serverStartYOURSERVERNAME.bat, leaving about five minutes between the shutdown and the startup tasks
 3.Under Actions, enter cmd.exe as the program/script and the following for the argument:
   /c "C:\ValheimLogs\serverStartYOURSERVERNAME.bat >> C:\ValheimLogs\YOURSERVERNAMETaskSchedulerLog.txt 2>&1"
