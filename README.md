@@ -32,7 +32,7 @@ Setup of Scripts
 3. Edit the serverStartYOURSERVERNAME.bat file using your preffered editor
 4. Replace the values in the CONFIGURATION section as necessary (YOURSERVERNAME, YOURPASSWORD, YOURDISCORDWEBHOOK) and save the file. No spaces in any of the values or the scripts will not work!
 
-At this point you can use and Admin CMD to run the .bat file to test that it is working properly. Discord should populate the join code within a minute or two of the it being run.
+At this point you can use an Admin CMD to run the .bat file to test that it is working properly. Discord should populate the join code within a minute or two of it being run.
 
 The serverShutdown.bat when run will identify all active Valheim servers and shut them down gracefully. This does not remove the Join Code message that was sent to Discord. That will require manual deletion.
 
