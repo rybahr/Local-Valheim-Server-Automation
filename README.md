@@ -76,7 +76,7 @@ These scripts currently assume:
 * The Valheim Dedicated Server installation is on the **C:** drive.
 * You already have one or more Valheim worlds configured on the server PC.
 * Your network and port-forwarding configuration is already set up as required for your server.
-* You have access to a Discord server where you can create and manage webhooks.
+* You have access to a Discord server where you can create and manage webhooks. The current version of the script requires the webhook present to run properly. A future separate version of the script will be uploaded that does not have this functionality.
 * You are comfortable using Windows Task Scheduler if you want to automate server restarts.
 
 The following are currently outside the scope of the project:
@@ -209,6 +209,7 @@ YOURSERVERNAME -> MyWorld
 YOURPASSWORD -> MyServerPassword
 YOURDISCORDWEBHOOK -> Your Discord webhook URL
 ```
+> ** Important:** An eight character minimum password is required at this point for the server and the PlayFab backend to work properly.
 
 Save the file when finished.
 
