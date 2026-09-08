@@ -214,8 +214,6 @@ Save the file when finished.
 
 > **Important:** Do not use spaces in these configuration values unless you have modified the scripts to support them. Spaces may cause the current scripts to fail or parse values incorrectly.
 
-> **Security:** Do not commit a startup script containing your actual server password or Discord webhook URL to a public GitHub repository.
-
 ---
 
 # Testing the Scripts
