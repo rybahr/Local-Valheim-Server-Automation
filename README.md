@@ -132,6 +132,7 @@ Determine the exact name of the world you want the script to start.
 You will use this name to replace `YOURSERVERNAME` throughout the setup process.
 
 ## 3. Rename the Startup Script
+> **Note:** As the scripts and log files stand, if you are only hosting one world you do not need rename them. It is highly recommended that you do rename if you are going to host more than one.
 
 Rename:
 
