@@ -1,0 +1,26 @@
+[Sun 09/06/2026 15:21:41.98] - Script started. 
+[Sun 09/06/2026 15:21:42.05] - Server is not running. Starting server. 
+[Sun 09/06/2026 15:21:42.05] - Server log cleared: C:\ValheimLogs\Citadellog.txt 
+[Sun 09/06/2026 15:21:42.05] - Launching Valheim server. 
+[Sun 09/06/2026 15:21:42.88] - Valheim process launched successfully. 
+[Sun 09/06/2026 15:21:42.88] - Waiting for crossplay join code. 
+[Sun 09/06/2026 15:21:57.17] - Matching log line found: 09/06/2026 15:21:53: Session "Citadel" registered with join code 966507 
+[Sun 09/06/2026 15:21:57.17] - Extracted join code: 966507 
+[Sun 09/06/2026 15:21:57.19] - Valid join code found: 966507 
+[Sun 09/06/2026 15:21:57.19] - Sending join code to Discord. 
+[Sun 09/06/2026 15:21:57.64] - Join code sent to Discord: 966507 
+[Sun 09/06/2026 15:21:57.64] - Script execution completed. 
+'C:\ValheimLogs\severStartCitadel.bat' is not recognized as an internal or external command,
+operable program or batch file.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.
+The process cannot access the file because it is being used by another process.

@@ -107,9 +107,9 @@ Keep the webhook URL handy, as you will need to add it to the startup script con
 
 ## 1. Download the Scripts
 
-For ease of use, download the repository ZIP and extract the files onto the machine that will host the Valheim server.
+Download or clone the repository onto the machine that will host the Valheim server.
 
-The individual script files are also provided separately in the repository for code review. The template log files included in the ZIP are empty `.txt` files and are not provided separately.
+The repository includes the startup and shutdown scripts along with two empty `.txt` log-file templates that will be renamed for each server.
 
 The examples in this project assume the scripts and logs are located under:
 
@@ -151,7 +151,7 @@ If you host multiple worlds, create and configure a separate startup script for 
 
 ## 4. Rename the Log Files
 
-Two empty log files are included in the ZIP for each server. Rename both by replacing `YOURSERVERNAME` with the same name used for the startup script:
+Two empty `.txt` log files are included in the repository. Rename both by replacing `YOURSERVERNAME` with the same name used for the startup script:
 
 ```text
 YOURSERVERNAMElog.txt
@@ -166,7 +166,7 @@ MyWorldlog.txt
 MyWorldTaskSchedulerLog.txt
 ```
 
-If you are configuring multiple servers, each server should have its own startup script and pair of log files.
+If you are configuring multiple servers, create a copy of the startup script and both log files for each server.
 
 For example:
 
