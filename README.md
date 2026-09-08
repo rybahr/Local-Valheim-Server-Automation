@@ -245,7 +245,7 @@ If the Discord message appears with the correct join code, the startup automatio
 
 ## Shutdown Test
 
-Run:
+Run in Admin Command Prompt:
 
 ```bat
 serverShutdown.bat
